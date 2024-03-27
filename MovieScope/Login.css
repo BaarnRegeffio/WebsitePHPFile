@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,400;1,500&display=swap');
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*body*/
+
+
+header {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ padding: 20px;
+background-color: rgb(0, 0, 0, 0.8);
+}
+
+header .Navbar {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 30px;
+  
+}
+
+.Navbar .logo {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+ /*Color of the Dot*/
+.Navbar .logo {
+  color: #ffffff;
+
+}
+.Navbar .menu-links{
+  display: flex;
+  gap: 40px;
+
+}
+
+/* Navigations Colors and  Hover Effects */
+.Navbar a {
+  color: rgb(18, 150, 108);
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+ 
+/*hover effect*/
+.Navbar a:hover{
+  transition: 0.2s ease;
+
+}
+
+.Navbar a {
+  color: rgb(255, 255, 255);
+
+}
+  
+.img{
+  width: 100%;
+}
+
+
+
+
+.men{
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.men:hover{
+  background-color: rgb(206, 142, 142);
+
+}
+
+
+
+
+/*Login*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background-size: cover;
+    min-height: 100vh;
+    background-image: url(Wallpaper/LoginBackgroung.png);
+    background-repeat: no-repeat;
+    
+}
+
+.login-form {
+  width: 420px;
+  background-color: white;
+ color: #fff;
+  padding: 3rem;
+  border-radius: 30px 10px;
+
+}
+
+.login-form h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 36px;
+    
+}
+
+.login-form .input-box{
+ width: 100% ;
+ height: 50px;
+ margin: 30px 0;
+border: 2px solid #555;
+}
+.register-link{
+  display: flex;
+  justify-content: center;
+}
+.register-link p{
+  color: #090707;
+}
+
+label{
+  color: #090707;
+  margin-right: 60px;
+}
+
+.fr{
+  color: #090707;
+}
+
+.input-box{
+  display: flex;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    padding-left: 1rem;
+
+    
+}
+
+.button{
+  background: rgb(206, 142, 142);
+  border: none;
+  height: 100%;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+
+position:  relative;
+color: #7c98a3;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 1px;
+display: inline-block;
+padding: 12px 40px;
+border-radius: 40px;
+transition: all 0.3s ease;
+cursor: pointer;
+   &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 60%;
+      height: 100%;
+      border: 2px solid #fff;
+      border-radius: 40px / 0;
+      box-shadow: 0 0 10px rgba(199, 122, 186, 0.184) inset;
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+&:hover {
+    color: #fff;
+    background-color: #a37ca3;
+    &::after {
+        opacity: 1;
+        border-color: transparent;
+    }
+  }
+}
+
+
+
+.button a:hover{
+color: aqua;
+transition: 0.2s ease;
+}
+
+
+.input-box input::placeholder{
+    color: #090707;
+    
+}

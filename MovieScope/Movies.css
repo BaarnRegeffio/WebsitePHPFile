@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,400;1,500&display=swap');
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*body*/
+
+.Mega{
+  height: 100vh;
+ width: 100%;
+background-color: #19120e;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+/*banner*/
+
+.banner {
+  background: url('Wallpaper/movie-1920X1080-wallpaper-z0puq43u0qbtr6j2.jpeg');
+    background-size: cover;
+    color: white;
+    padding: 5rem;
+    margin-top: -33rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+
+}
+.banner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+ background-color: rgb(0, 0, 0, 0.8);
+ 
+}
+
+header .navbar {
+  display: flex;
+  align-items: center;
+  
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color:  rgb(0, 0, 0, 0.8);
+  padding: 15px;
+  
+}
+
+.navbar .logo {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+ /*Color of the Dot*/
+.navbar .logo:hover{
+
+  color: rgb(206, 142, 142);
+
+}
+
+.navbar .menu-links{
+  display: flex;
+  gap: 40px;
+
+}
+
+/* Navigations Colors and  Hover Effects */
+.navbar a {
+  color:  rgb(237, 237, 237);
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+ 
+/*hover effect*/
+.navbar a:hover{
+  transition: 0.2s ease;
+  
+}
+
+
+.men{
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.men:hover{
+  background-color: rgb(206, 142, 142);
+
+}
+
+
+
+  /*Text*/
+
+.hero-section{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+
+}
+
+
+.hero-section .banner {
+  color: rgb(91, 34, 34);
+  max-width: 1200px;
+  margin: 0 auto;
+  
+
+}
+.hero-section .banner h1{
+  font-size: 3rem;
+  max-width: 600px;
+margin-top: auto;
+}
+
+.hero-section .banner p {
+  font-weight: 300;
+  margin-top: 15px;
+  max-width: 600px;
+  
+}
+
+
+
+
+
+/*GenreDropDown*/
+.dropbtn {
+    background-color: #4CAF50;
+    color: rgb(206, 142, 142);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(233, 222, 222);
+    padding: 7px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #fef9f9}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  
+  /*Text*/
+.Popular{
+  border-radius: 5px;
+  margin-top: 5%;
+  color: white;
+  
+  }
+
+  .Popular h3{
+    font-size: x-large;
+    color: #ffffff;
+  }
+  /*MoviePoster*/
+  .popular-movie{
+    width: 180px;
+    height: 200px;
+    float: left;
+   margin: 1% ;
+  
+  }
+
+.popular-movie:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10%;
+  border: 2px solid rgb(249, 247, 247);
+  box-shadow: 2px  black;
+}
+
+.WatchNow{
+  background: rgb(235, 162, 162);
+  border: none;
+  height: 100%;
+  width: 20%;
+  color: white;
+  cursor: pointer;
+color: #f7f7f7;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 1px;
+padding: 12px 4px;
+border-radius: 45px;
+transition: all 0.3s ease;
+position:  top;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
