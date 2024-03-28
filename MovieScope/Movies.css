@@ -39,11 +39,15 @@ background-repeat: no-repeat;
   background: url('Wallpaper/movie-1920X1080-wallpaper-z0puq43u0qbtr6j2.jpeg');
     background-size: cover;
     color: white;
+    display: flex;
+    flex-direction: column;
+   justify-content:  end;
     padding: 5rem;
     margin-top: -33rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
+    
 
 }
 .banner:before {
@@ -240,37 +244,68 @@ margin-top: auto;
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
   border-radius: 10%;
-  border: 2px solid rgb(249, 247, 247);
-  box-shadow: 2px  black;
+  border: 3px solid rgb(235, 172, 108);
+ 
 }
 
-.WatchNow{
-  background: rgb(235, 162, 162);
+/*Search*/
+.banner .Search-container{
+ text-align: center;
+ 
+ position: relative;
+ overflow: hidden;
+}
+
+.banner input[type=text]{
+  margin-left: 124px;
+width: 500px;
+height: 40px;
+padding: 6px;
+border-radius: 11px ;
+margin-top: 1px;
+font-size: 17px;
+border: 3px solid rgb(53, 50, 50);
+}
+
+.banner .Search-container button{
+  
+  background: rgb(206, 142, 142);
   border: none;
-  height: 100%;
-  width: 20%;
-  color: white;
+ color: white;
   cursor: pointer;
-color: #f7f7f7;
 font-weight: bold;
+margin-top: 5px;
 text-transform: uppercase;
-font-size: 14px;
-letter-spacing: 1px;
-padding: 12px 4px;
-border-radius: 45px;
-transition: all 0.3s ease;
-position:  top;
+padding: 9px 40px;
+border-radius: 40px;
 
+
+
+
+
+}
+
+.Icons{
+  width: 20px;
+  height: 20px;
+position: absolute;
+right: 8%;
+left: 28%;
+
+}
+
+.Searchbare{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 
 
+ 
 
-
-
-
-
-
+  
 
 
 
