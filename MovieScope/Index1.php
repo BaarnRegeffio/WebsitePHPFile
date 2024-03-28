@@ -14,6 +14,9 @@
     />
   </head>
 
+
+ 
+
   <body>
     <header class="Mega">
       <nav class="navbar">
@@ -35,13 +38,23 @@
           <li><a href="#">About us</a></li>
           <li><a href="Login.html">Login</a></li>
           
+
+
+          
+      
         </ul>
       </nav>
+      <div class="Intro">
+      <video class="Video" width="1021" height="440" autoplay muted>
+        <source class="WelcomeVid" src="VIdeos/Untitled ‑ Made with FlexClip.mp4" type="video/mp4">
+         </video> 
+        </div>
     </header>
+
+
+
     <section class="hero-section">
-
-
-      <div class="content">
+<div class="content">
         <h1>Welcome</h1>
         <p>
           Come watch your Favorate Movie at our platform and enjoy the best
@@ -54,6 +67,22 @@
     </section>
 
 
+    
+
+    <footer>
+<div class="Footer-container">
+  <a  class="FooterLetter"   href="#">Contact Us</a> |
+  <a class="FooterLetter"     href="#">Follow Us on Social Media</a> |
+  <a     class="FooterLetter"          href="#">Terms & Accept</a>
+
+  <div class="row">
+    <i class="fa-solid fa-address-book"></i>
+    <i class="fa-brands fa-facebook"></i>
+</div>
+</div>
+</footer>
+
+
    
 
 
@@ -61,3 +90,4 @@
 
   </body>
 </html>
+
