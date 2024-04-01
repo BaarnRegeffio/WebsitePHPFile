@@ -25,10 +25,10 @@
   height: 100vh;
  width: 100%;
 background-color: #19120e;
-background-attachment: fixed;
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+
+
+
+
 }
 
 
@@ -222,14 +222,15 @@ margin-top: auto;
   /*Text*/
 .Popular{
   border-radius: 5px;
-  margin-top: 5%;
+  margin-top: 2%;
   color: white;
   
   }
 
   .Popular h3{
     font-size: x-large;
-    color: #ffffff;
+    color: #fffbfb;
+   
   }
   /*MoviePoster*/
   .popular-movie{
@@ -257,7 +258,7 @@ margin-top: auto;
 }
 
 .banner input[type=text]{
-  margin-left: 124px;
+  margin-left: 300px;
 width: 500px;
 height: 40px;
 padding: 6px;
@@ -268,21 +269,52 @@ border: 3px solid rgb(53, 50, 50);
 }
 
 .banner .Search-container button{
-  
-  background: rgb(206, 142, 142);
+  background: rgb(46, 43, 43);
   border: none;
- color: white;
+  height: 100%;
+  width: 18%;
+  color: white;
   cursor: pointer;
+
+position:  relative;
+color: #f4f4f4;
 font-weight: bold;
-margin-top: 5px;
 text-transform: uppercase;
-padding: 9px 40px;
+font-size: 14px;
+letter-spacing: 1px;
+display: inline-block;
+padding: 12px 40px;
+margin-top: 2px;
 border-radius: 40px;
+transition: all 0.3s ease;
+cursor: pointer;
+   &::after {
+      content: "";
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 60%;
+      height: 100%;
+      border: 2px solid #fff;
+      border-radius: 40px / 0;
+      box-shadow: 0 0 10px rgba(199, 122, 186, 0.184) inset;
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+&:hover {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: transparent;
+    }
+  }
 
 
 
-
-
+.Search-container:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  color: #19120e;
 }
 
 .Icons{
@@ -290,7 +322,9 @@ border-radius: 40px;
   height: 20px;
 position: absolute;
 right: 8%;
-left: 28%;
+left: 330px;
+top: 93px;
+
 
 }
 
@@ -302,6 +336,57 @@ left: 28%;
 }
 
 
+
+
+ 
+.carousel-inner{
+  width: 390px;
+  background-size: cover;
+  left: 460px;
+  top: 20px;
+}
+
+.carousel-inner .img{
+  float: right;
+}
+
+    
+.carousel.pointer-event{
+  touch-action: pan-y;
+  
+  
+}
+
+  
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
 
  
 
