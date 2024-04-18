@@ -40,7 +40,7 @@ if(isset($_POST['submit'])) {
         <form method="post" action="start.php">
             <button type="submit" name="start">Home</button>
         </form>
-        <form method="post" action="showgenres.php">
+        <form method="post" action="showusers.php">
             <button type="submit" name="start">Back</button>
         </form>
     </table>
